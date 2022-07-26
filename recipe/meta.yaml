@@ -41,7 +41,7 @@ about:
   home: https://git.rwth-aachen.de/coscine/docs/public/coscine-python-sdk
   license: MIT
   license_family: MIT
-  license_file: LICENSE
+  license_file: LICENSE.txt
   summary: A Python3 SDK for [Coscine](https://coscine.rwth-aachen.de/)
   description: |
     Coscine Python SDK
