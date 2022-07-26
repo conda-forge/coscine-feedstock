@@ -17,20 +17,17 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - pip
-    - requests
-    - requests-toolbelt
-    - tqdm
-    - colorama
-    - prettytable
   run:
-    - python >=3.6
+    - python >=3.7
     - requests
     - requests-toolbelt
     - tqdm
     - colorama
     - prettytable
+    - appdirs
+    - rdflib
 
 test:
   imports:
