@@ -1,6 +1,6 @@
 {% set name = "coscine" %}
-{% set version = "0.5.5" %}
-{% set sha256 = "058405f8835e45981e7f600978611355ba88ea265bdacefb362360af184aa07d" %}
+{% set version = "0.7.0" %}
+{% set sha256 = "8ba6e3d931bed42132a1c3ae3fcab0a1aa21214c675475febafeb428a3600cf6" %}
 
 package:
   name: {{ name|lower }}
@@ -13,24 +13,21 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - pip
-    - requests
-    - requests-toolbelt
-    - tqdm
-    - colorama
-    - prettytable
   run:
-    - python >=3.6
+    - python >=3.7
     - requests
     - requests-toolbelt
     - tqdm
     - colorama
     - prettytable
+    - appdirs
+    - rdflib
 
 test:
   imports:
@@ -44,8 +41,8 @@ about:
   home: https://git.rwth-aachen.de/coscine/docs/public/coscine-python-sdk
   license: MIT
   license_family: MIT
-  license_file: LICENSE
-  summary: 'A Python3 SDK for [Coscine](https://coscine.rwth-aachen.de/)'
+  license_file: LICENSE.txt
+  summary: A Python3 SDK for [Coscine](https://coscine.rwth-aachen.de/)
   description: |
     Coscine Python SDK
 
