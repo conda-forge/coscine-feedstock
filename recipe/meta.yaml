@@ -34,6 +34,7 @@ test:
     - coscine
   requires:
     - pip
+    - unittest
   commands:
     - pip check
 
