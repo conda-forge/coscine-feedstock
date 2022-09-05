@@ -7,7 +7,7 @@ class TestCoscineClient(unittest.TestCase):
     c = Client("NotAValidToken")
     self.assertTrue(isinstance(c, Client))
     self.assertTrue(isinstance(c.__version__, str))
-  def test___projects(self)
+  def test___projects(self):
     c = Client("NotAValidToken")
     self.assertRaises(AuthorizationError, c , projects)
  
