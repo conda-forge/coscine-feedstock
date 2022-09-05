@@ -11,3 +11,6 @@ class TestCoscineClient(unittest.TestCase):
     c = Client("NotAValidToken")
     self.assertRaises(AuthorizationError, c , projects)
  
+
+if __name__ == '__main__':
+    unittest.main()
