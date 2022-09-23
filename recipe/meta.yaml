@@ -1,6 +1,6 @@
 {% set name = "coscine" %}
-{% set version = "0.7.3" %}
-{% set sha256 = "d0f7c8ff57b98241a3a570405fa3c8ff12502dc735c082af52b0f5aae33f1105" %}
+{% set version = "0.7.4" %}
+{% set sha256 = "b24c356fecff68527b5b485501fe0dfe96b8081ab0de948d8c33c3c477c6213d" %}
 
 package:
   name: {{ name|lower }}
