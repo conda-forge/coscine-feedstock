@@ -1,7 +1,7 @@
 About coscine
 =============
 
-Home: https://git.rwth-aachen.de/coscine/docs/public/coscine-python-sdk
+Home: https://git.rwth-aachen.de/coscine/community-features/coscine-python-sdk
 
 Package license: MIT
 
@@ -9,9 +9,9 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/coscine-feedsto
 
 Summary: A Python3 SDK for [Coscine](https://coscine.rwth-aachen.de/)
 
-Development: https://git.rwth-aachen.de/coscine/docs/public/coscine-python-sdk
+Development: https://git.rwth-aachen.de/coscine/community-features/coscine-python-sdk
 
-Documentation: https://git.rwth-aachen.de/coscine/docs/public/coscine-python-sdk/-/tree/master/src/examples
+Documentation: https://coscine.pages.rwth-aachen.de/community-features/coscine-python-sdk/coscine.html
 
 Coscine Python SDK
 
