@@ -1,4 +1,4 @@
-from coscine import Client, AuthorizationError
+from coscine import Client
 import unittest
 
 
@@ -9,7 +9,7 @@ class TestCoscineClient(unittest.TestCase):
     self.assertTrue(isinstance(c.version, str))
   def test___projects(self):
     c = Client("NotAValidToken")
-    self.assertRaises(AuthorizationError, c.projects)
+    self.assertRaises(PermissionError, c.projects)
  
 
 if __name__ == '__main__':
