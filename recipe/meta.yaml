@@ -1,6 +1,6 @@
 {% set name = "coscine" %}
-{% set version = "0.7.4" %}
-{% set sha256 = "b24c356fecff68527b5b485501fe0dfe96b8081ab0de948d8c33c3c477c6213d" %}
+{% set version = "0.8.3" %}
+{% set sha256 = "75aec0c7befecb00a4e93f07205e30c74c2926d6befca38d689edc31c9fbbfb1" %}
 
 package:
   name: {{ name|lower }}
@@ -28,6 +28,7 @@ requirements:
     - prettytable
     - appdirs
     - rdflib
+    - python-dateutil
 
 test:
   imports:
@@ -38,7 +39,7 @@ test:
     - pip check
 
 about:
-  home: https://git.rwth-aachen.de/coscine/docs/public/coscine-python-sdk
+  home: https://git.rwth-aachen.de/coscine/community-features/coscine-python-sdk
   license: MIT
   license_family: MIT
   license_file: LICENSE.txt
@@ -55,8 +56,8 @@ about:
     - invite and manage project members
     - upload and download files, resources and projects
     - manage your metadata
-  doc_url: https://git.rwth-aachen.de/coscine/docs/public/coscine-python-sdk/-/tree/master/src/examples
-  dev_url: https://git.rwth-aachen.de/coscine/docs/public/coscine-python-sdk
+  doc_url: https://coscine.pages.rwth-aachen.de/community-features/coscine-python-sdk/coscine.html
+  dev_url: https://git.rwth-aachen.de/coscine/community-features/coscine-python-sdk
 
 extra:
   recipe-maintainers:
