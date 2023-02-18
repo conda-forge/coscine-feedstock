@@ -161,4 +161,5 @@ Feedstock Maintainers
 =====================
 
 * [@niklassiemer](https://github.com/niklassiemer/)
+* [@palomena](https://github.com/palomena/)
 
