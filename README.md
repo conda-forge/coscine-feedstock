@@ -1,11 +1,11 @@
-About coscine
-=============
+About coscine-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/coscine-feedstock/blob/main/LICENSE.txt)
 
 Home: https://git.rwth-aachen.de/coscine/community-features/coscine-python-sdk
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/coscine-feedstock/blob/main/LICENSE.txt)
 
 Summary: A Python3 SDK for [Coscine](https://coscine.rwth-aachen.de/)
 
