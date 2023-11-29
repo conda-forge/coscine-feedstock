@@ -1,4 +1,4 @@
-from coscine import ApiClient, AuthorizationError
+from coscine import ApiClient, AuthenticationError
 import unittest
 
 
@@ -9,7 +9,7 @@ class TestCoscineClient(unittest.TestCase):
     self.assertTrue(isinstance(c.version, str))
   def test___projects(self):
     c = ApiClient("NotAValidToken")
-    self.assertRaises(AuthorizationError, c.projects)
+    self.assertRaises(AuthenticationError, c.projects)
  
 
 if __name__ == '__main__':
