@@ -1,15 +1,15 @@
-from coscine import Client
+from coscine import ApiClient, AuthorizationError
 import unittest
 
 
 class TestCoscineClient(unittest.TestCase):
   def test___init__(self):
-    c = Client("NotAValidToken")
-    self.assertTrue(isinstance(c, Client))
+    c = ApiClient("NotAValidToken")
+    self.assertTrue(isinstance(c, ApiClient))
     self.assertTrue(isinstance(c.version, str))
   def test___projects(self):
-    c = Client("NotAValidToken")
-    self.assertRaises(PermissionError, c.projects)
+    c = ApiClient("NotAValidToken")
+    self.assertRaises(AuthorizationError, c.projects)
  
 
 if __name__ == '__main__':
