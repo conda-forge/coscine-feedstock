@@ -17,18 +17,19 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.10
     - pip
   run:
-    - python >=3.7
-    - requests
-    - requests-toolbelt
-    - tqdm
-    - colorama
-    - prettytable
-    - appdirs
-    - rdflib
+    - python >=3.10
+    - boto3
+    - pyshacl
     - python-dateutil
+    - rdflib
+    - requests
+    - requests-cache
+    - requests-toolbelt
+    - tabulate
+    - tqdm
 
 test:
   imports:
@@ -43,20 +44,11 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE.txt
-  summary: A Python3 SDK for [Coscine](https://coscine.rwth-aachen.de/)
+  summary: A Python Software Development Kit for Coscine.
   description: |
-    Coscine Python SDK
-
-    This python3.x package provides an SDK for interfacing with Coscine.
-    It is maintained and developed by the community and should not be regarded
-    as an official service of RWTH Aachen.
-    You can use the package to integrate Coscine in your python applications
-    and easily:
-    - create, edit or delete projects and resources
-    - invite and manage project members
-    - upload and download files, resources and projects
-    - manage your metadata
-  doc_url: https://coscine.pages.rwth-aachen.de/community-features/coscine-python-sdk/coscine.html
+    The Coscine Python SDK provides a high-level interface
+    to the Coscine REST API.
+  doc_url: https://coscine.pages.rwth-aachen.de/community-features/coscine-python-sdk
   dev_url: https://git.rwth-aachen.de/coscine/community-features/coscine-python-sdk
 
 extra:
