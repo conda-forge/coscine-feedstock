@@ -7,23 +7,14 @@ Home: https://git.rwth-aachen.de/coscine/community-features/coscine-python-sdk
 
 Package license: MIT
 
-Summary: A Python3 SDK for [Coscine](https://coscine.rwth-aachen.de/)
+Summary: A Python Software Development Kit for Coscine.
 
 Development: https://git.rwth-aachen.de/coscine/community-features/coscine-python-sdk
 
-Documentation: https://coscine.pages.rwth-aachen.de/community-features/coscine-python-sdk/coscine.html
+Documentation: https://coscine.pages.rwth-aachen.de/community-features/coscine-python-sdk
 
-Coscine Python SDK
-
-This python3.x package provides an SDK for interfacing with Coscine.
-It is maintained and developed by the community and should not be regarded
-as an official service of RWTH Aachen.
-You can use the package to integrate Coscine in your python applications
-and easily:
-- create, edit or delete projects and resources
-- invite and manage project members
-- upload and download files, resources and projects
-- manage your metadata
+The Coscine Python SDK provides a high-level interface
+to the Coscine REST API.
 
 
 Current build status
