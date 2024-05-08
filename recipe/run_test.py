@@ -3,6 +3,9 @@ import unittest
 
 
 class TestCoscineClient(unittest.TestCase):
+  """
+  Dummy test to check whether the package is installed correctly.
+  """
   def test___init__(self):
     try:
       c = ApiClient("NotAValidToken")
