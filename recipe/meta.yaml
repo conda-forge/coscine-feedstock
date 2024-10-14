@@ -21,6 +21,7 @@ requirements:
     - pip
   run:
     - python >=3.10
+    - setuptools
     - boto3
     - pyshacl
     - python-dateutil
