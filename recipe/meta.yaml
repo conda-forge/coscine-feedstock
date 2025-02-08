@@ -1,7 +1,7 @@
-{% set python_min = '3.10' %}
+{% set python_min = "3.10" %}
 {% set name = "coscine" %}
-{% set version = "0.11.5" %}
-{% set sha256 = "41ed34e6226fe8f590e7c031d19ade3a631efed73006cb17069c161f3b74a13c" %}
+{% set version = "0.11.9" %}
+{% set sha256 = "f34ed72e408b80e183cdff4645c7e20d999236f7723843322e9dae250731570d" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
