@@ -21,6 +21,7 @@ requirements:
     - python {{ python_min }}
     - pip
     - setuptools
+    - pydantic
   run:
     - python >={{ python_min }}
     - setuptools
@@ -33,6 +34,7 @@ requirements:
     - requests-toolbelt
     - tabulate
     - tqdm
+    - pydantic
 
 test:
   imports:
