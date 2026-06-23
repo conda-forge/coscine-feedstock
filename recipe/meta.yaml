@@ -30,7 +30,7 @@ requirements:
     - python-dateutil
     - rdflib
     - requests
-    - requests-cache
+    - requests-cache >=1.2.1,<1.3.0
     - requests-toolbelt
     - tabulate
     - tqdm
