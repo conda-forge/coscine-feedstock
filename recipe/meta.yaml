@@ -1,14 +1,14 @@
 {% set python_min = "3.10" %}
 {% set name = "coscine" %}
-{% set version = "0.12.1" %}
-{% set sha256 = "8d4ef927db02d7f30441c5ce18e6677e51a6f17921bd48d8bf4cb02b608825e6" %}
+{% set version = "0.12.2" %}
+{% set sha256 = "97a7480c93115f7b58b17e75fc7b21a6996b350675688083c8aeb89ff2487e19" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
